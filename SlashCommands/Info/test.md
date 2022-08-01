@@ -1,15 +1,9 @@
-const {
-  Client,
-  CommandInteraction,
-  MessageEmbed,
-  MessageActionRow,
-  MessageButton,
-} = require("discord.js");
+const { Client, CommandInteraction } = require("discord.js");
 
 module.exports = {
-  name: "invite",
+  name: "",
   cooldown: 5,
-  description: "Gets the bot's invite link",
+  description: "",
   type: "CHAT_INPUT",
 
   /**
@@ -19,22 +13,7 @@ module.exports = {
    * @param {String[]} args
    */
   run: async (client, interaction, args) => {
-    const emb = new MessageEmbed()
-      .setColor(client.config.color.main)
-      .setTitle(`Invite ${client.user.username}`)
-      .setDescription(`Invite ${client.user.username} to your server`)
-      .setFooter(`⚡Powered by Zen Developments`);
-
-    const row = new MessageActionRow().addComponents(
-      new MessageButton()
-        .setURL(
-          `https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`
-        )
-        .setLabel("Invite Me")
-        .setStyle("LINK")
-    );
-
-    interaction.followUp({ embeds: [emb], components: [row] });
+    //Put your codes here
   },
 };
 

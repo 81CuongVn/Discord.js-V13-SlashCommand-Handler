@@ -60,3 +60,16 @@ client.on("interactionCreate", async (interaction) => {
     if (command) command.run(client, interaction);
   }
 });
+
+
+/**
+// ================< ==================== >================= //
+//                                                           //
+//            Handlers Coded by benzmeister#5843             //
+//                                                           //
+//     Work for Zen Developments | https://zen-dev.xyz       //
+//                                                           //
+//                    All Right Reserved!                    //
+//                                                           //
+// ================< ==================== >================= //
+*/

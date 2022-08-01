@@ -56,3 +56,15 @@ module.exports = {
     return interaction.followUp({ embeds: [embed] });
   },
 };
+
+/**
+// ================< ==================== >================= //
+//                                                           //
+//            Handlers Coded by benzmeister#5843             //
+//                                                           //
+//     Work for Zen Developments | https://zen-dev.xyz       //
+//                                                           //
+//                    All Right Reserved!                    //
+//                                                           //
+// ================< ==================== >================= //
+*/

@@ -128,3 +128,17 @@ manager.on("debug", (d) =>
     : ""
 );
 manager.spawn({ timeout: -1 });
+
+
+/**
+// ================< ==================== >================= //
+//                                                           //
+//            Handlers Coded by benzmeister#5843             //
+//                                                           //
+//     Work for Zen Developments | https://zen-dev.xyz       //
+//                                                           //
+//                    All Right Reserved!                    //
+//                                                           //
+// ================< ==================== >================= //
+*/
+

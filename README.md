@@ -26,6 +26,7 @@
 ---------
 ## ⚙️ Configuration
 - ⚠️ Never share your tokens or api keys to other or make it publicly
+- To start the Handler use `node cluster.js` or `node .`
 - Modify `config.json` and fill out the values:
 ```env
 {

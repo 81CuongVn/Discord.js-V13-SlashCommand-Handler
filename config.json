@@ -1,0 +1,40 @@
+{
+  "env": {
+    "token": "PUT_YOUR_TOKEN_HERE",
+    "prefix": "//",
+    "activity": "/help | On {shards} Cluster(s)",
+    "type": "WATCHING",
+    "status": "online"
+  },
+
+  "mongoDB": {
+    "COMMENT": "Put TRUE(in lowercase) if you want this handler to have MongoDB database.",
+    "enable": false,
+    "mongoURL": "PUT_YOUR_MONGODB_HERE"
+  },
+
+  "COMMENT": "Only enable hostingweb if you are using replit!",
+  "hostingweb": false,
+
+  "developers": [928640467619434526],
+
+  "emoji": {
+    "wrong": "",
+    "right": ""
+  },
+
+  "color": {
+    "main": "WHITE",
+    "error": "RED",
+    "success": "GREEN",
+
+    "red": "#ff5a48",
+    "orange": "#ffca4d",
+    "yellow": "#ffcc5c",
+    "green": "#74ff89",
+    "purple": "#7d5eff",
+    "pink": "#ff88d2",
+    "grey": "#4b4b4b",
+    "white": "#ffffff"
+  }
+}
